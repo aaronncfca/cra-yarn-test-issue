@@ -10,10 +10,11 @@
 !.yarn/sdks
 !.yarn/versions
 
-# Swap the comments on the following lines if you do not wish to use zero-installs
+# Swap the comments on the following lines if you DO wish to use zero-installs
 # Documentation here: https://yarnpkg.com/features/zero-installs
-!.yarn/cache
-#.pnp.*
+# Note: you will need to enable Plug-n-Play before enabling zero-installs.
+#!.yarn/cache
+.pnp.*
 
 # testing
 /coverage

@@ -3056,17 +3056,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarntestissue/frontend@workspace:frontend":
-  version: 0.0.0-use.local
-  resolution: "@yarntestissue/frontend@workspace:frontend"
-  dependencies:
-    react: ^17.0.1
-    react-dom: ^17.0.1
-    react-scripts: 5.0.1
-    web-vitals: ^1.0.1
-  languageName: unknown
-  linkType: soft
-
 "abab@npm:^2.0.3, abab@npm:^2.0.5":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
@@ -12493,6 +12482,11 @@ __metadata:
 "yarntestissue@workspace:.":
   version: 0.0.0-use.local
   resolution: "yarntestissue@workspace:."
+  dependencies:
+    react: ^17.0.1
+    react-dom: ^17.0.1
+    react-scripts: 5.0.1
+    web-vitals: ^1.0.1
   languageName: unknown
   linkType: soft
 
