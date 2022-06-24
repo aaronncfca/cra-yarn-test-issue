@@ -1,0 +1,12 @@
+{
+  "name": "yarntestissue",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "start": "yarn --cwd backend start",
+    "build": "yarn --cwd frontend build"
+  },
+  "packageManager": "yarn@3.2.1"
+}
